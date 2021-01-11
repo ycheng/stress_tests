@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Local Sanity
+Type=Application
+Terminal=true
+Exec=/home/u/xbin/wl_exists_test.py
+Categories=System;Settings
+
