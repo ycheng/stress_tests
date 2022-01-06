@@ -1,5 +1,9 @@
 #! /usr/bin/python3
 
+# pre-requirement: install python plumbum module.
+
+
+
 from plumbum import local
 import json
 import pprint as pp
@@ -31,8 +35,8 @@ def test_count(ret, to_reboot=-1):
             test_count = json.loads(f.read())
     else:
         test_count = 0
-    if test_count > 100:
-        print("test pass for 100 times")
+    if test_count > 90:
+        print("test pass for 90 times")
         return
 
     print("Test count previously is", test_count)
